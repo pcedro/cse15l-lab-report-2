@@ -89,10 +89,12 @@ The values of the chatHistory field changes from this specific request because i
 
 ---
 ## Part 2:
--The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)
+1.The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)
 ![Image](privatekey.png)
--The absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6, so it should be a path on ieng6's file system)
+2.The absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6, so it should be a path on ieng6's file system)
 ![Image](publickey.png)
+3. A terminal interaction where you log into your ieng6 account without being asked for a password.
+![Image](nopasskey.png)
 ___
 ## Part 3:
 As I am new to Git and Github, I have learned many new techniques within that realm. I am now more familiar with setting up SSH keys on my own personal account, as I didn't know they existed before. Furthermore, I have learned how to access web servers and new terminology within code, such as commands like mkdir (make directory) and scp command(copies files and directories). This new knowledge will be extremely helpful in the future when navigating code. Although I still have a lot more to learn, I feel more comfortable when using web servers and git.
