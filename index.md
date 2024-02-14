@@ -84,14 +84,14 @@ In this example, the handleRequest method in the ChatHandler file is called to r
 A relevant argument to the handleRequest method would be URI url in the method header, representing the url argument. Furthermore, chatHistory is a relevant field to the ChatHandler class as it holds the previous chat messages and adds the new ones.
 
 3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-The values of the chatHistory field changes from this specific request because it is appending the new message "Minions: Banana!" to the chatHistory.
 
+The values of the chatHistory field changes from this specific request because it is appending the new message "Minions: Banana!" to the chatHistory.
 
 ---
 ## Part 2:
-1.The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)
+1. The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)
 ![Image](privatekey.png)
-2.The absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6, so it should be a path on ieng6's file system)
+2. The absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6, so it should be a path on ieng6's file system)
 ![Image](publickey.png)
 3. A terminal interaction where you log into your ieng6 account without being asked for a password.
 ![Image](nopasskey.png)
