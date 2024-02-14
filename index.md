@@ -55,15 +55,20 @@ class ChatServer {
 
 __Output 1:__
 ![Image](example1.png)
--Which methods in your code are called?
+1. Which methods in your code are called?
 
-The method handle in ServerHttpHandler gets called as a request is being made within the web server (/add-message?s=CSE15L&user=paola). Afterwards, the method handleRequest in ChatHandle is called to handle the paths.
+The method handle in ServerHttpHandler gets called as a request is being made within the web server: 
+```
+# web server
+(/add-message?s=CSE15L&user=paola)
+```
+Afterwards, the method handleRequest in ChatHandle is called to handle the paths.
 
--What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
 The argument relevant to ServerHttpHandler.handle is exchange as the HttpExchange gets the request URI and gives it to the handleRequest method in ChatHandler. Thus, ChatHandler.handleRequest has the args url, which is the request URI (/add-message).
 
--How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
 A relevant field to the ChatHandler class is chatHistory, which stores the chat messages as a StringBuilder object. The chatHistory field gets modified by handleRequest method when a new message is appended. 
 
